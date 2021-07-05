@@ -201,6 +201,7 @@ export const validate_shipping = (data: {
 	if (Validator.isEmpty(data.state)) {
 		errors.state = 'State field is required';
 	}
+	console.log('hello');
 	// Postal Code checks
 	if (Validator.isEmpty(data.postalCode)) {
 		errors.postalCode = 'Postal Code field is required';
